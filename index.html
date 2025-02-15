@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站已经迁移</title>
+    <style>
+        /* 居中样式 */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>网站已迁移，3秒后自动跳转至「https://www.mcneko.com/tools/3dtotem」</p>
+        <p><a href="https://www.mcneko.com/tools/3dtotem">如果您没有自动跳转，可以点击这里</a></p>
+    </div>
+    <script>
+        // 3秒后跳转
+        setTimeout(function() {
+            window.location.href = "https://www.mcneko.com/tools/3dtotem";
+        }, 3000);
+    </script>
+</body>
+</html>
